@@ -20,3 +20,9 @@
   * tqdm
   * pandas
   * scikit-learn
+ 
+  
+**Usage**:
+```
+python3 main.py -s <settings file> -n <number of clients> -r <number of rounds>
+```
