@@ -1,35 +1,29 @@
 # Detecting Model Inconsistency Attacks Against Federated Learning Systems
 
-**VAE Architecture**:
 
-
-![image](https://github.com/user-attachments/assets/d04b40fd-fd97-4f0c-9bd1-25b7835bc1be)
-
-**Some predefined Properties**:
-
-
-![image](https://github.com/user-attachments/assets/2a93aa76-6a95-487f-85d2-7b1c3ab739ed)
+Architecture du VAE 
+![The variational auto-encoder architecture: encoder,decoder, and the re-parameterization trick.](/home/mbouharoun/my_vae.png)
 
 **Requirements**:
 
-* python3 
-  * TensorFlow2
-  * Keras
-  * tqdm
-  * pandas 
+* python3 / jupyter
+  * TensorFlow2 
   * numpy
   * matplotlib
-  * scikit-learn
-    
 
 
 
 
-Usage
+The notebook 'CanaryGradientInteractive_POC.ipynb' allows to test the canary gradient attack in an interactive fashion. A non-interactive version of the code is available in 'canary_attack_main.py'. This can be used by providing a configuration file as input. For instance:
 
 ```
-python3 main.py -s <settings file> -n <number of clients> -r <number of rounds>
+python3 main.py -s nf-unsw1_nf-unsw2.py
 ```
+
+The main hyper-parameters for 'canary_attack_main.py' are in 'settings/\_\_init\_\_.py'
+
+The result will be saved in the 'results' folder and it can be read using the notebook 'plot_data.ipynb'. The script 'run_all.sh' can be used to run all the tests.
+
 
 
 
