@@ -1,6 +1,6 @@
 # Detecting Model Inconsistency Attacks Against Federated Learning Systems
 
-![image](https://github.com/user-attachments/assets/8987e142-0121-4b92-aeef-85d79a191ea0)
+![image](https://github.com/user-attachments/assets/8987e142-0121-4b92-aeef-85d79a191ea0)*Figure 1: Your caption here.*
 
 
 
