@@ -9,9 +9,10 @@ from sklearn.metrics import accuracy_score
 from vae_utility import train_vae, detect_malicious_modifications, vae_threshold, detect_malicious_modifications_2
 from utility import *
 '''
-Cette fonction charge un fichier de configuration dans le répertoire settings définie dans l'attribut "-s , ou --settings" et retourne 
-les paramètres définis dans ce fichier.
-Cette fonction est utilisée pour choisir le dataset volu comme shadow dataset, et main dataset
+This function loads a configuration file from the settings directory defined by the "-s" or "--settings" attribute 
+and returns the parameters specified in that file.
+
+This function is used to select the desired dataset as the shadow dataset and main dataset.
 '''
 def load_settings(settings_file):
     full_path = os.path.join("settings", settings_file)
