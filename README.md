@@ -1,9 +1,9 @@
 # Detecting Model Inconsistency Attacks Against Federated Learning Systems
 
-**Model B Architecture**:
+**Model Architecture**:
 
 ![image](https://github.com/user-attachments/assets/c3977365-a1eb-41f4-b510-e2c2b8d69786)
-
+![Version](https://img.shields.io/badge/version-1.0-blue)
 
 **Some predefined properties**:
 
