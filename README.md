@@ -1,4 +1,6 @@
 # Detecting Model Inconsistency Attacks Against Federated Learning Systems
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 **Model Architecture**:
 
